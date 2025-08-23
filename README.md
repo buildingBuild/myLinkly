@@ -1,4 +1,4 @@
-<h2 align="center"> mylinkly 🌀 </h2>
+<h2 align="center"> myLinkly 🫧  </h2>
 Linkly is a smart link hub that tracks clicks, monitors your links’ uptime, and emails you when a link is used or goes down plus a weekly digest of what got traffic and what broke. It's basically like linktree but with more personalization and tracking of user links.
 
 ## 🌐 Live Site
