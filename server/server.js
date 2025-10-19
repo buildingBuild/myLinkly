@@ -1,21 +1,19 @@
 import express from 'express'
 import jwt from 'jsonwebtoken'
+import authRoutes from './routes/authRoutes.js'
+import profileEditsRoutes from './routes/profileCustomize.js'
 
 const app = express()
+const PORT = process.env.PORT
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
-app.post('/', (req, res) => {
+
+app.use('/api/auth', authRoutes)
+app.use('/api/profile-edit', profileEditsRoutes)
 
 
 
 
-})
-
-
-app.
-
-
-
-    app.listen(3000, () => console.log("Hello"))
+app.listen(PORT, () => console.log(`Running on port ${PORT}`))
